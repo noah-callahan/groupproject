@@ -1,0 +1,55 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.intro {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background: url(images/gp-pic1.jpeg) no-repeat 50% 50%; 
+    display: table;
+    top: 0;
+    background-size: cover;
+
+
+}
+
+.intro .inner {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+
+
+
+}
+
+.content {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.content h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 800%;
+    color: rgb(96,100,72);
+    text-shadow: 3px 3px 0px #000;
+
+}
+
+.button {
+    border-radius: 9px;
+    font-size: 400%;
+    border: 3px solid black;
+    padding: 10px;
+    font-family: 'Pacifico', cursive;
+    text-decoration: none;
+    color: rgb(132,142,76); 
+    text-shadow: 3px 3px 0px #000;
+    box-shadow: 2px 2px black;;
+}
