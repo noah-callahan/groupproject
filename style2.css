@@ -7,9 +7,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: left;
+  display: table;
 }
 .Floating-Boxes{
   position: relative;
+
+
 }
 .Boxed1{
   position: fixed;
@@ -42,4 +45,18 @@
     right: 0;
     width: 300px;
     border: 3px solid black;
+}
+
+#home {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   text-align: center;
+   transform: translate(-50%, -50%);
+
+  
+ 
+
+
+
 }
